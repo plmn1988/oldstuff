@@ -1,0 +1,13 @@
+<div id="right-sidebar" class="panel panel-default pull-right" ng-init="getOwnFriends()">
+    <div class="panel-heading"><a href="#/user/friends">Friends</a> - {{friends.length}} total</div>
+    <div class="panel-body">
+        <div ng-repeat="friend in friends | limitTo: 6">
+            <a ng-href="#/users/:{{friend.username}}">
+                <div id="friends-sidebar">
+                    <img ng-src="{{friend.profileImageData}}" src='img/no-image.jpg'/>
+                    <p>{{friend.name.split(' ').slice(0, -1).join(' ')}}</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,93 @@
+.forms-wrapper {
+    width: 295px;
+}
+
+.post-body {
+    margin-top: 10px;
+}
+
+.post-img {
+    max-height: 60px;
+    max-width: 55px;
+    float: left;
+    padding-right: 10px;
+}
+
+#search-img {
+    max-height: 30px;
+    padding-right: 10px;
+}
+
+#img-request {
+    max-width: 52px;
+    margin-right: 10px;
+}
+
+#ul-requests > li  {
+    width: 200px;
+    margin-bottom: 10px
+}
+
+#user-wall-post {
+    padding-bottom: 30px;
+}
+
+.container {
+    display: table;
+    vertical-align: middle;
+}
+
+#register > p > label{
+    color: #777;
+}
+
+#register > p > input {
+    padding-left: 5px;
+    margin-left: 10px;
+}
+
+#login > p > label{
+    color: #777;
+}
+
+#login > p > input {
+    padding-left: 5px;
+    margin-left: 10px;
+}
+
+body {
+     margin-top: 80px;
+ }
+
+#friends-sidebar {
+    float: left;
+    margin: 5px;
+    align-content: space-around;
+}
+
+#friends-sidebar > img {
+    max-height: 90px;
+    max-width: 85px;
+    
+}
+
+#friends-sidebar > p {
+    text-align: center;
+}
+
+#right-sidebar {
+    width: 320px;
+}
+
+.dropdown-menu {
+    width: 196px !important;
+}
+
+#post-header {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#search-friend {
+    margin-top: 20px;
+}
